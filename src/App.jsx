@@ -6,13 +6,9 @@ export default function App() {
 
   const entryData = data.map((entry)=> {
     return (
-      <Entry 
-        img={entry.img}
-        title={entry.title}
-        country={entry.country}
-        gLink={entry.googleMapsLink}
-        dates={entry.dates}
-        text={entry.text}
+      <Entry
+        key={entry.id}
+        entry={entry}
       />
     )
   })
