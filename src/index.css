@@ -5,7 +5,7 @@ html, body {
 body {
   display:flex;
   font-family: Inter;
-  width: 550px;
+  width: 575px;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ article.journal-entry .main-image {
 
 .info-container a {
   color: #2B283A;
-  font-size: .6rem;
+  font-size: .7rem;
 }
 
 .info-container a:visited {
@@ -75,12 +75,12 @@ article.journal-entry .main-image {
 
 .info-container p.trip-dates {
   font-weight: bold;
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 .info-container p.entry-text {
   line-height: 1.5;
-  font-size: .65rem;
+  font-size: .75rem;
   max-height: calc(1.5em * 3); 
   overflow: hidden;
 }
